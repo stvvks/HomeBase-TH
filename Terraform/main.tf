@@ -9,7 +9,6 @@ module "website" {
   bucket_name = "homebase-FTW"
   tags = {
     Environment = "Production"
-    Project     = "MyWebsite"
   }
 }
 # The outputted "dont know if thats a word" result which would be the URL
