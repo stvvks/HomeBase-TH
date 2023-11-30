@@ -18,3 +18,6 @@
 # Again, if any assumptions or decisions are made during this task, please make a note of them.
 
 # This assignment is expected to take less than 2 hours, and we believe it will provide valuable insights into your technical skills and problem-solving abilities. Once you have completed the tasks, please share your work with us ahead of the interview in a format that is convenient for you, such as a GitHub repository or a ZIP file containing your code and any necessary documentation.
+
+# To build & execute, run a docker build -t "image name" .
+# Then a docker run -p 8080:8080 "image name"
