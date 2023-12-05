@@ -13,7 +13,7 @@ RUN gem install bundler && bundle install
 # Use non-root user to run the application
 USER nonroot
 
-# Copy the application code to the container
+# Copy the application code to the container( for layering reasons we copy this after the gemfiles
 COPY . /app
 
 # Expose port 8080
